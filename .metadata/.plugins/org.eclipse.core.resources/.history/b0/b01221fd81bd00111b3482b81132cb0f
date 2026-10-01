@@ -1,0 +1,19 @@
+package instruccionAlternativa;
+
+public class EstadoCivil {
+
+	public static void main(String[] args) {
+		/*
+		 * Programa que pida una letra y responde el estado civil de la persona
+		 * 
+		 *  sS  Soltero/a
+		 *  cC  Casado/a
+		 *  vV  Viudo/a
+		 *  dD  Divorciado/a
+		 *  
+		 *  --  Error
+		 */
+
+	}
+
+}

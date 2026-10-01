@@ -1,0 +1,10 @@
+package instruccionAlternativa;
+
+public class MayorDe3 {
+
+	public static void main(String[] args) {
+		// Pedimos 3 número y mostramos el mayor
+
+	}
+
+}

@@ -1,0 +1,38 @@
+package ejercicios;
+
+import java.util.Scanner;
+
+public class Ejercicio6 {
+	
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		
+		int dinero = teclado.nextInt();
+		teclado.close();
+		
+		int billetes500=dinero/500;
+		dinero=dinero%500;
+		
+		int billetes200=dinero/200;
+		dinero=dinero%200;
+		
+		int billetes100=dinero/100;
+		dinero=dinero%100;
+		
+		int billetes50=dinero/50;
+		dinero=dinero%50;
+		
+		int billetes20=dinero/20;
+		dinero=dinero%20;
+		
+		int billetes10=dinero/10;
+		dinero=dinero%10;
+		
+		int billetes5=dinero/5;
+		dinero=dinero%5;
+		
+		dinero=dinero%5;
+		
+		
+	}
+}

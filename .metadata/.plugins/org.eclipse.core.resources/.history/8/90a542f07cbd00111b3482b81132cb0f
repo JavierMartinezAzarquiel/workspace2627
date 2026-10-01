@@ -1,0 +1,11 @@
+package instruccionAlternativa;
+
+public class DiaDeLaSemana {
+
+	public static void main(String[] args) {
+		// Programa que pida un número del 1 al 7 e imprima en pantalla el dia de la semana
+		// Si ponen un número raro, ponemos un mensaje de error
+
+	}
+
+}
