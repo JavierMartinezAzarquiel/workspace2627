@@ -1,0 +1,26 @@
+package ejercicios;
+
+import java.util.Scanner;
+
+public class Ejercicio4 {
+
+	public static void main(String[] args) {
+		Scanner teclado=new Scanner(System.in);
+		
+		int numeroJugado, numeroPremiado;
+		
+		System.out.print("Introduce el número que juegas:");
+		numeroJugado=teclado.nextInt();
+		System.out.print("Introduce el número premiado:");
+		numeroPremiado=teclado.nextInt();
+		teclado.close();
+		
+		if (numeroJugado/10000 == numeroPremiado/10000 || numeroJugado%10 == numeroPremiado%10) {
+			System.out.println("Tienes reintegro");
+		} else {
+			System.out.println("NO tienes reintegro");
+		}
+		
+	}
+
+}

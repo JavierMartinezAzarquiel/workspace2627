@@ -1,0 +1,27 @@
+package ejercicios;
+
+import java.util.Scanner;
+
+public class Ejercicio2 {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		
+		System.out.print("Introduce las horas: ");
+		int horas = teclado.nextInt();
+		System.out.print("Introduce los minutos: ");
+		int minutos = teclado.nextInt();
+		System.out.print("Introduce los segundos: ");
+		int segundos = teclado.nextInt();
+		
+		if(segundos > 59)
+			minutos = minutos + segundos / 60;
+			segundos = segundos % 60;
+				if(minutos > 59)
+					horas = horas + minutos / 60;
+					minutos = minutos % 60;
+					System.out.print("El tiempo será: " + horas + ":" + minutos + ":" + segundos);
+
+	}
+
+}
