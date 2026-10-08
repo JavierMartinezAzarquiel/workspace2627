@@ -1,0 +1,45 @@
+package ejercicios;
+
+import java.util.Scanner;
+
+public class Ejercicio8 {
+
+	public static void main(String[] args) {
+		/*
+		 * Pedir un número entre 0 y 9.999 y mostrarlo con las cifras al revés.
+		 */
+
+		Scanner teclado=new Scanner(System.in);
+		int num;
+		int um, c, d, u;
+		
+		System.out.print("Introduzca un número entre 0 y 9.999: ");
+		num=teclado.nextInt();
+		
+		
+		if(num<10){
+			System.out.println("Del revés: "+num);
+		}else if(num<100){
+			u = num % 10;
+			d = num / 10;
+			System.out.println("Del revés: "+ u + d);
+		}else if(num<1000){
+			u = num % 10;
+			d = (num%100)/10;
+			c = num / 100;
+			System.out.println("Del revés: "+ u + d + c);
+		}else if(num<10000){
+			u = num % 10;
+			d = (num%100)/10;
+			c = (num%1000)/100;
+			um =num / 1000;
+			System.out.println("Del revés: "+ u + d + c + um);
+		}
+		
+		
+		
+		
+		
+	}
+
+}
