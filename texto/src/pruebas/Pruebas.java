@@ -22,7 +22,7 @@ public class Pruebas {
 		
 		//sacar la última letra de la frase
 		System.out.println("La última letra es: " + frase.charAt( frase.length()-1) );
-		frase.
+
 	
 	}
 
