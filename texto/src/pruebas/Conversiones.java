@@ -22,7 +22,7 @@ public class Conversiones {
 		
 		
 		//para entero
-		double datoInt;
+		int datoInt;
 		datoInt = Integer.parseInt(texto);
 		
 	}
