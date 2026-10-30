@@ -296,3 +296,13 @@
 2026-10-29 12:01:56.400: [INFO] BookmarksLoadDropped droppedNodes=0
 2026-10-29 12:01:56.400: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
 2026-10-29 12:19:27.023: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-30 10:40:19.112: [INFO] CurrentProfilePath: C:\Users\diurno\Desktop\Programación\repositorio\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-30 10:40:19.112: [INFO] Profiles total count: 1
+2026-10-30 10:40:19.112: [INFO] Profile: name=Perfil 1 path=C:\Users\diurno\Desktop\Programación\repositorio\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-29T12:01:59.484Z
+2026-10-30 10:40:19.112: [INFO] LastUsedProfileDir: C:\Users\diurno\Desktop\Programación\repositorio\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-30 10:40:19.112: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\diurno\Desktop\Programación\repositorio\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-29T12:01:59.484Z
+2026-10-30 10:40:19.112: [INFO] OnDoneLoading sync enabled: 0
+2026-10-30 10:40:19.112: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-30 10:40:19.112: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-30 10:40:19.112: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-30 11:26:35.429: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
