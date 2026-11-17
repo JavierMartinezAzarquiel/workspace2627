@@ -19,6 +19,16 @@ public class Notas {
 				System.out.println(modulos[i]);
 			}
 		}
+		
+		//Mostrar cual es mi módulo favorito(El que mejor nota tengo)
+		int favorito = 0;
+		for (int i = 1; i < notas.length; i++) {
+			if(notas[i] > notas[favorito]) {
+				favorito = i;
+			}
+		}
+		System.out.println("Mi módulo favorito es: " + modulos[favorito]);
+		
 	}
 
 }
